@@ -18,6 +18,14 @@
      align-content: center;
  }
 
+ .nav-btn {
+     border-radius: 20px;
+     border: 1px solid black;
+     padding: 6px;
+     margin: 3px;
+     font-size: 12px;
+ }
+
  .logo img {
      height: 40px;
      width: 150px;
@@ -27,7 +35,7 @@
      margin-top: 10px;
      display: flex;
      height: 20px;
-
+     align-items: center;
  }
 
  .side-btn img {
@@ -50,10 +58,14 @@
 
  .left-side {
      width: 70%;
+     border-right: 0.5px solid rgb(209, 209, 209);
+
  }
 
  .left-side2 {
      display: flex;
+     justify-content: space-between;
+     margin: 20px 0;
  }
 
  .right-side {
@@ -72,10 +84,12 @@
      padding: 10px;
      border-bottom: 1px solid black;
 
+
  }
 
  .author img {
      width: 20px;
+     margin-right: 5px;
  }
 
  .author {
@@ -96,6 +110,9 @@
  .title p {
      font-size: 13px;
      color: gray;
+     margin-top: 5px;
+     overflow: hidden;
+     text-overflow: ellipsis;
  }
 
  .bottom {
@@ -104,6 +121,7 @@
      margin-left: 23px;
      margin-right: 10px;
      align-items: center;
+     color: gray;
 
  }
 
@@ -124,10 +142,9 @@
      width: 13px;
  }
 
- /* .tab {
-    display: flex;
-    justify-content: space-between;
-} */
+ .tab {
+     width: 580px;
+ }
 
  .photo img {
      width: 120px;
@@ -163,9 +180,24 @@
      height: 20px;
  }
 
+ .twit-btn {
+     display: flex;
+     align-items: center;
+     border-radius: 20px;
+     border: 1px solid black;
+     padding: 0 15px;
+     margin: 3px;
+     font-size: 12px;
+ }
+
+ .twit-btn img {
+     width: 40px;
+ }
+
  .p-last {
      color: gray;
      text-decoration: underline;
+     margin-top: 5px;
  }
 
  .mid {
@@ -181,7 +213,7 @@
 
  .buttons div {
      border-radius: 20px;
-     background-color: lightgray;
+     background-color: rgb(230, 228, 228);
      padding: 10px;
      margin: 3px;
      font-size: 10px;
@@ -210,12 +242,13 @@
      margin-top: 4px;
      color: gray;
      font-weight: 300;
+     text-overflow: ellipsis;
  }
 
  .people-btn {
      font-size: 10px;
      border-radius: 20px;
-     border: 1px solid rgb(153, 151, 151);
+     border: 1px solid black;
      padding: 7px;
 
  }
